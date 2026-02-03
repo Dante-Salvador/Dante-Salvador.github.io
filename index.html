@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toldos e Impresiones Grupo G & G | Villahermosa, Tabasco</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/img/gyg.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="/" class="navbar-logo">
+                <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/741-180w.png" alt="Grupo G & G">
+            </a>
+
+            <ul class="navbar-menu">
+                <li><a href="#inicio" class="nav-link active" data-section="inicio">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link" data-section="nosotros">Nosotros</a></li>
+                <li><a href="#servicios" class="nav-link" data-section="servicios">Servicios</a></li>
+                <li><a href="#galeria" class="nav-link" data-section="galeria">Galería</a></li>
+                <li><a href="#contacto" class="nav-link" data-section="contacto">Contacto</a></li>
+            </ul>
+
+            <div class="navbar-contact">
+                <a href="tel:993-317-9999" class="navbar-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>993-317-9999</span>
+                </a>
+                <div class="navbar-whatsapp-group">
+                    <a href="https://wa.me/5219933179999" target="_blank" class="navbar-whatsapp-item">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        <span>993-317-9999</span>
+                    </a>
+                    <a href="https://wa.me/5219931667666" target="_blank" class="navbar-whatsapp-item">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        <span>993-166-7666</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <div class="mobile-menu-whatsapp">
+            <a href="https://wa.me/5219933179999?text=¡Hola!" class="mobile-whatsapp-btn" target="_blank">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Renta de Toldos y <span>Soluciones Gráficas</span> en Villahermosa
+                </h1>
+                <p class="hero-description">
+                    Tenemos lo que necesitas: lonas impresas, impresión de tabloides, anuncios 3D, corte CNC, grabado de
+                    reconocimientos, corte y grabado láser.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Encuéntranos Ahora
+                    </a>
+                    <a href="#servicios" class="btn btn-outline">
+                        Ver Servicios
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">11+</div>
+                        <div class="stat-label">Años de experiencia</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Proyectos realizados</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Satisfacción</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/slide-2304w.jpg"
+                    alt="Toldos Grupo G&G">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="nosotros">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Conócenos</span>
+                <h2 class="section-title">¿Quiénes Somos?</h2>
+                <p class="section-subtitle">
+                    Somos una empresa comprometida con la calidad y satisfacción de nuestros clientes.
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/595-859w.jpg" alt="Grupo G&G">
+                </div>
+                <div class="about-text">
+                    <h3>Toldos e Impresiones Grupo G & G</h3>
+                    <p>
+                        En TOLDOS E IMPRESIONES GRUPO G & G somos especialistas en la confección de lonas,
+                        renta de toldos, domos articulados y a dos aguas. Ubicados en Villahermosa, Tabasco,
+                        pero con cobertura en toda la República Mexicana.
+                    </p>
+                    <p>
+                        Contamos con plotter de impresión en gran formato y alta resolución, fabricamos anuncios
+                        luminosos, mamparas con impresión digital, anuncios en 3D, corte CNC, corte y grabado láser.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Calidad garantizada</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Precios competitivos</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Entrega a tiempo</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <span>Asesoría de diseño</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="servicios">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Nuestros Servicios</span>
+                <h2 class="section-title">¡Tenemos Todo lo que Necesitas!</h2>
+                <p class="section-subtitle">
+                    Ofrecemos una amplia gama de servicios para cubrir todas tus necesidades de imagen y publicidad.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h3>Toldos y Lonas</h3>
+                    <ul>
+                        <li>Confección de lonas</li>
+                        <li>Anuncios luminosos</li>
+                        <li>Impresión de lonas</li>
+                        <li>Vinil microperforado</li>
+                        <li>Toldos</li>
+                        <li>Domos</li>
+                        <li>Señalizaciones</li>
+                        <li>Rotulación vehicular</li>
+                        <li>Lonas antichispas</li>
+                        <li>Geomembranas</li>
+                        <li>Toldos decorativos</li>
+                        <li>Toldos climatizados</li>
+                        <li>Cortinas</li>
+                        <li>Mamparas</li>
+                        <li>Corte de vinil</li>
+                        <li>Corte router CNC</li>
+                        <li>Tabloides</li>
+                        <li>Grabado de reconocimientos</li>
+                        <li>Grabado láser</li>
+                        <li>Corte láser</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-2h2v-4h4v-2h-4V7h-2v4H8v2h4z" />
+                        </svg>
+                    </div>
+                    <h3>Renta y Exposiciones</h3>
+                    <ul>
+                        <li>Renta de stand de octanor para exposiciones</li>
+                        <li>Renta de toldos</li>
+                        <li>Renta de lonas</li>
+                        <li>Maquila de lonas</li>
+                        <li>Espectaculares</li>
+                        <li>Stand para exposiciones</li>
+                        <li>Octanor</li>
+                        <li>Anuncios 3D</li>
+                        <li>Carpas para feria</li>
+                        <li>Articulados</li>
+                        <li>Impresión</li>
+                        <li>Vinil</li>
+                        <li>Anuncios luminosos</li>
+                        <li>Señalización</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z" />
+                        </svg>
+                    </div>
+                    <h3>Publicidad y Diseño</h3>
+                    <ul>
+                        <li>Stands</li>
+                        <li>Letras</li>
+                        <li>Rotulación</li>
+                        <li>Publicidad</li>
+                        <li>Trovicel</li>
+                        <li>Plotter</li>
+                        <li>Reflectivo</li>
+                        <li>Cortinas</li>
+                        <li>Esmeriladas</li>
+                        <li>Diseño</li>
+                        <li>Campañas</li>
+                        <li>Lona 610</li>
+                        <li>Lona camionera</li>
+                        <li>Toldos dos aguas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="gallery" id="galeria">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Nuestro Trabajo</span>
+                <h2 class="section-title">Galería de Proyectos</h2>
+                <p class="section-subtitle">
+                    Conoce algunos de nuestros trabajos más destacados.
+                </p>
+            </div>
+            <div class="gallery-carousel">
+                <button class="gallery-btn gallery-btn-prev" id="galleryPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="gallery-track-container">
+                    <div class="gallery-track" id="galleryTrack">
+                        <!-- Slide 1 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/615-1920w.jpg"
+                                alt="VINIL SOBRE TROVICEL">
+                            <div class="gallery-slide-content">
+                                <h4>Vinil sobre Trovicel</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/614-1920w.jpg"
+                                alt="VALLAS">
+                            <div class="gallery-slide-content">
+                                <h4>Vallas</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/613-1920w.jpg"
+                                alt="TOLDO CON LONA FRONT">
+                            <div class="gallery-slide-content">
+                                <h4>Toldo con Lona Front</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/612-1920w.jpg"
+                                alt="TOLDO Y ALFOMBRA">
+                            <div class="gallery-slide-content">
+                                <h4>Toldo y Alfombra</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/611-1920w.jpg"
+                                alt="TOLDO ARTICULADO CON ILUMINACIÓN">
+                            <div class="gallery-slide-content">
+                                <h4>Toldo Articulado con Iluminación</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 6 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/610-1920w.jpg"
+                                alt="STANDS DE OCTANORM">
+                            <div class="gallery-slide-content">
+                                <h4>Stands de Octanorm</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 7 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/609-1920w.jpg"
+                                alt="ANUNCIOS LUMINOSOS">
+                            <div class="gallery-slide-content">
+                                <h4>Anuncios Luminosos</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 8 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/608-1920w.jpg"
+                                alt="LONA MATE">
+                            <div class="gallery-slide-content">
+                                <h4>Lona Mate</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 9 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/607-1920w.jpg"
+                                alt="IMPRESIÓN DE LONAS">
+                            <div class="gallery-slide-content">
+                                <h4>Impresión de Lonas</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 10 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/606-1920w.jpg"
+                                alt="FOTOGRÁFICO">
+                            <div class="gallery-slide-content">
+                                <h4>Fotográfico</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 11 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/605-1920w.jpg"
+                                alt="ESPECTACULARES">
+                            <div class="gallery-slide-content">
+                                <h4>Espectaculares</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 12 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/604-1920w.jpg"
+                                alt="TOLDO DOS AGUAS">
+                            <div class="gallery-slide-content">
+                                <h4>Toldo Dos Aguas</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 13 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/603-1920w.jpg"
+                                alt="CLIMATIZADO CON PANTALLAS">
+                            <div class="gallery-slide-content">
+                                <h4>Climatizado con Pantallas</h4>
+                            </div>
+                        </div>
+                        <!-- Slide 14 -->
+                        <div class="gallery-slide">
+                            <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/602-1920w.jpg"
+                                alt="TOLDO ARTICULADO">
+                            <div class="gallery-slide-content">
+                                <h4>Toldo Articulado</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="gallery-btn gallery-btn-next" id="galleryNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="gallery-dots" id="galleryDots"></div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contacto">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Contáctanos</span>
+                <h2 class="section-title">¿Listo para tu Proyecto?</h2>
+                <p class="section-subtitle">
+                    Solicita una cotización sin compromiso. Estamos aquí para ayudarte.
+                </p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-map">
+                    <div id="map"></div>
+                </div>
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Información de Contacto</h3>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Dirección</h4>
+                            <p>VILLAHERMOSA - NACAJUCA KM 6.5<br>SALOYA 1RA. SECCION, NACAJUCA,<br>TABASCO 86220</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Teléfono</h4>
+                            <a href="tel:993-317-9999">993-317-9999</a><br>
+                            <a href="tel:993-166-7666">993-166-7666</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <a href="mailto:ventas@grupogyg.mx">ventas@grupogyg.mx</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h4>Horario</h4>
+                            <div class="hours-grid">
+                                <span class="day">Lun - Vie</span><span class="time">08:00 - 18:00</span>
+                                <span class="day">Sábado</span><span class="time">08:00 - 14:00</span>
+                                <span class="day">Domingo</span><span class="time">Cerrado</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://facebook.com/grupogyg" target="_blank" class="facebook"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/5219933179999" target="_blank" class="whatsapp"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:ventas@grupogyg.mx" class="email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Footer Main Content -->
+            <div class="footer-grid">
+                <!-- Column 1: About -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Grupo G & G</h4>
+                    <p class="footer-description">
+                        Especialistas en lonas, toldos, publicidad y servicios de corte y grabado.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/grupogyg" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/grupogyg" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/grupogyg" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/5219933179999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#contacto">Ubícanos</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Services -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Servicios Destacados</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#servicios">Confección de lonas</a></li>
+                        <li><a href="#servicios">Anuncios luminosos</a></li>
+                        <li><a href="#servicios">Impresión de lonas</a></li>
+                        <li><a href="#servicios">Toldos y domos</a></li>
+                        <li><a href="#servicios">Corte y grabado</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Contacto</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Villahermosa - Nacajuca KM 6.5, Saloya 1ra. Sección, Nacajuca, Tabasco 86220</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>993-317-9999 / 993-166-7666</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>ventas@grupogyg.mx</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <a href="/" class="footer-logo">
+                        <img src="https://lirp.cdn-website.com/1b8b4ac3/dms3rep/multi/opt/741-180w.png" alt="Grupo G&G">
+                    </a>
+                    <p class="footer-copyright">© 2026 Toldos e Impresiones Grupo G & G. Todos los derechos reservados.
+                    </p>
+                </div>
+                <div class="footer-bottom-right">
+                    <h5>Métodos de pago aceptados</h5>
+                    <div class="payment-icons">
+                        <div class="payment-icon">
+                            <svg viewBox="0 0 48 48" fill="#1A1F71">
+                                <path
+                                    d="M44,35c0,2.209-1.791,4-4,4H8c-2.209,0-4-1.791-4-4V13c0-2.209,1.791-4,4-4h32c2.209,0,4,1.791,4,4V35z" />
+                                <path fill="#fff"
+                                    d="M22.255,20l-2.879,4.855l-1.23-4.855h-2.681l2.286,6.496c0,0-0.155,0.678-0.514,1.065c-0.404,0.434-1.199,0.51-1.199,0.51l0.267,1.928c0,0,1.143,0.031,2.092-0.396c0.949-0.426,1.498-1.319,2.047-2.296L25,20H22.255z" />
+                                <path fill="#fff" d="M26,20l-1,8h2.5l1-8H26z" />
+                                <path fill="#fff"
+                                    d="M32.917,20H29l-1,8h2.5l0.375-3h1.042c1.942,0,3.583-1.333,3.583-3.5C35.5,20.25,34.167,20,32.917,20z" />
+                            </svg>
+                        </div>
+                        <div class="payment-icon">
+                            <svg viewBox="0 0 48 48">
+                                <circle cx="31" cy="24" r="12" fill="#f44336" />
+                                <circle cx="17" cy="24" r="12" fill="#ff9800" />
+                                <path fill="#ff7043"
+                                    d="M24,16c2.985,2.328,5,5.855,5,10s-2.015,7.672-5,10c-2.985-2.328-5-5.855-5-10S21.015,18.328,24,16z" />
+                            </svg>
+                        </div>
+                        <div class="payment-icon">
+                            <svg viewBox="0 0 48 48" fill="#43A047">
+                                <rect x="4" y="9" width="40" height="30" rx="4" />
+                                <path fill="#fff"
+                                    d="M24,17c-4.418,0-8,3.582-8,8s3.582,8,8,8s8-3.582,8-8S28.418,17,24,17z M24,30c-2.761,0-5-2.239-5-5s2.239-5,5-5s5,2.239,5,5S26.761,30,24,30z" />
+                            </svg>
+                        </div>
+                        <div class="payment-icon">
+                            <svg viewBox="0 0 48 48">
+                                <rect x="4" y="9" width="40" height="30" rx="4" fill="#1565C0" />
+                                <path fill="#fff" d="M32,25h-4v-2h4V25z M28,27h4v2h-4V27z M20,23h-4v6h4V23z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Google Maps -->
+    <script>
+        function initMap() {
+            const location = { lat: 18.068917, lng: -92.941361 };
+            const map = new google.maps.Map(document.getElementById('map'), {
+                center: location,
+                zoom: 15
+            });
+
+            new google.maps.Marker({
+                position: location,
+                map: map,
+                title: 'Grupo G & G'
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ45tvEXbDKw_Bh8-MCiX8s_byOyn023o&callback=initMap"
+        async defer></script>
+
+    <!-- Scripts -->
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileOverlay = document.getElementById('mobileOverlay');
+
+        function toggleMenu() {
+            hamburger.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+            mobileOverlay.classList.toggle('active');
+            document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+        }
+
+        hamburger.addEventListener('click', toggleMenu);
+        mobileOverlay.addEventListener('click', toggleMenu);
+
+        document.querySelectorAll('.mobile-menu-links a').forEach(link => {
+            link.addEventListener('click', toggleMenu);
+        });
+
+        // Scroll spy
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.navbar-menu .nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('data-section') === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Gallery Carousel
+        const galleryTrack = document.getElementById('galleryTrack');
+        const galleryPrev = document.getElementById('galleryPrev');
+        const galleryNext = document.getElementById('galleryNext');
+        const galleryDotsContainer = document.getElementById('galleryDots');
+        const gallerySlides = document.querySelectorAll('.gallery-slide');
+
+        let galleryIndex = 0;
+        let gallerySlidesToShow = 3;
+        let galleryAutoplay;
+
+        function getGallerySlidesToShow() {
+            if (window.innerWidth <= 768) return 1;
+            if (window.innerWidth <= 1024) return 2;
+            return 3;
+        }
+
+        function updateGalleryCarousel() {
+            const slideWidth = gallerySlides[0].offsetWidth + 20; // width + gap
+            galleryTrack.style.transform = `translateX(-${galleryIndex * slideWidth}px)`;
+            updateGalleryDots();
+        }
+
+        function createGalleryDots() {
+            galleryDotsContainer.innerHTML = '';
+            const totalDots = gallerySlides.length - gallerySlidesToShow + 1;
+            for (let i = 0; i < totalDots; i++) {
+                const dot = document.createElement('div');
+                dot.classList.add('gallery-dot');
+                if (i === 0) dot.classList.add('active');
+                dot.addEventListener('click', () => {
+                    galleryIndex = i;
+                    updateGalleryCarousel();
+                });
+                galleryDotsContainer.appendChild(dot);
+            }
+        }
+
+        function updateGalleryDots() {
+            const dots = document.querySelectorAll('.gallery-dot');
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === galleryIndex);
+            });
+        }
+
+        function nextGallerySlide() {
+            const maxIndex = gallerySlides.length - gallerySlidesToShow;
+            galleryIndex = galleryIndex >= maxIndex ? 0 : galleryIndex + 1;
+            updateGalleryCarousel();
+        }
+
+        function prevGallerySlide() {
+            const maxIndex = gallerySlides.length - gallerySlidesToShow;
+            galleryIndex = galleryIndex <= 0 ? maxIndex : galleryIndex - 1;
+            updateGalleryCarousel();
+        }
+
+        galleryNext.addEventListener('click', () => {
+            nextGallerySlide();
+            resetGalleryAutoplay();
+        });
+
+        galleryPrev.addEventListener('click', () => {
+            prevGallerySlide();
+            resetGalleryAutoplay();
+        });
+
+        function startGalleryAutoplay() {
+            galleryAutoplay = setInterval(nextGallerySlide, 4000);
+        }
+
+        function resetGalleryAutoplay() {
+            clearInterval(galleryAutoplay);
+            startGalleryAutoplay();
+        }
+
+        // Pause on hover
+        galleryTrack.addEventListener('mouseenter', () => clearInterval(galleryAutoplay));
+        galleryTrack.addEventListener('mouseleave', startGalleryAutoplay);
+
+        // Handle resize
+        window.addEventListener('resize', () => {
+            gallerySlidesToShow = getGallerySlidesToShow();
+            galleryIndex = 0;
+            createGalleryDots();
+            updateGalleryCarousel();
+        });
+
+        // Init gallery
+        gallerySlidesToShow = getGallerySlidesToShow();
+        createGalleryDots();
+        startGalleryAutoplay();
+    </script>
+
+</body>
+
+</html>
